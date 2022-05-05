@@ -1,7 +1,10 @@
 <template>
-  <ul class="border-right border-primary">
-    <router-link to="/" class="nav-item main-menu-item">
+  <ul class="list-group list-group-flush border-bottom border-right">
+    <router-link to="/" class="list-group-item list-group-item-link">
       dmosc
+    </router-link>
+    <router-link to="/experiences" class="list-group-item list-group-item-link">
+      experiences
     </router-link>
   </ul>
 </template>
@@ -13,15 +16,13 @@ export default {
 </script>
 
 <style scoped>
-.main-menu-item {
-  width: 100%;
+.list-group-item-link {
   text-align: center;
   text-decoration: none;
 }
 
-.main-menu-item:hover {
+.list-group-item-link:hover {
   cursor: pointer;
-  background-color: blue;
-  color: white;
+  font-weight: bolder;
 }
 </style>

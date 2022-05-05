@@ -6,6 +6,11 @@ const routes = [
     name: 'home',
     component: () => import("@/components/HomeMain")
   },
+  {
+    path: '/experiences',
+    name: 'experiences',
+    component: () => import("@/components/HomeExperience")
+  },
 ]
 
 const router = createRouter({

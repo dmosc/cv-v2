@@ -5,7 +5,9 @@
         <SideMenu/>
       </div>
       <div class="col-sm-6">
-        <router-view/>
+        <div class="card middle-container">
+          <router-view/>
+        </div>
       </div>
       <div class="col-sm">
         <PresentationCard/>
@@ -46,3 +48,10 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.middle-container {
+  width: 100%;
+  text-align: left;
+}
+</style>
