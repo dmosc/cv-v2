@@ -1,0 +1,33 @@
+<template>
+  <div class="card middle-container">
+    <h5 class="card-title middle-title-container">
+      Hello my name is Oscar.
+    </h5>
+    <div class="card-body">
+      I study Computer Science at Tec de Monterrey. I have extensive
+      experience in web development and systems infrastructure.
+      Throughout my career I've won multiple hackathons, interned at
+      large companies like Google and Lyft, and designed systems for
+      clients from the ground up.
+      <br/>
+      <br/>
+      My most common and proficient stack is MERN with GraphQL. I can
+      comfortably work with Javascript, Python, and C++.
+      <br/>
+      <br/>
+      I have a strong interest for web3 and cryptography. I believe the
+      future of web technologies is secured by core mathematical
+      concepts.
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "HomeMain"
+}
+</script>
+
+<style scoped>
+
+</style>

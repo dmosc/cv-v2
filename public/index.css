@@ -1,0 +1,43 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(5%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
+#app {
+  animation: fadeIn 1s normal;
+}
+
+.container {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.middle-title-container {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.middle-container {
+  width: 100%;
+  text-align: left;
+}
+
+.guest-name-input {
+  padding: 20px;
+  width: 100%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0px;
+}
+
+.guest-name-input:focus {
+  box-shadow: none;
+}
