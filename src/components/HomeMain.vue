@@ -6,8 +6,8 @@
     I study Computer Science at Tec de Monterrey. I have extensive
     experience in web development and systems infrastructure.
     Throughout my career I've won multiple hackathons, interned at
-    large companies like Google and Lyft, and designed systems for
-    clients from the ground up.
+    large companies like <router-link to="/experiences">Google and Lyft</router-link>, and designed systems
+    from scratch.
     <br/>
     <br/>
     My most common and proficient stack is MERN with GraphQL. I can

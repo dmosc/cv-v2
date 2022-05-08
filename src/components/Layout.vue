@@ -1,28 +1,24 @@
 <template>
   <div class="container">
-    <div class="row">
-      <div class="col-sm-2">
-        <SideMenu/>
+    <div class="d-flex flex-column flex-md-row justify-content-center">
+      <div class="col-md-4">
+        <PresentationCard/>
       </div>
-      <div class="col-sm-6">
+      <div class="col">
         <div class="card middle-container">
           <router-view/>
         </div>
-      </div>
-      <div class="col-sm">
-        <PresentationCard/>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import SideMenu from "@/components/SideMenu";
 import PresentationCard from "@/components/PresentationCard";
 
 export default {
   name: 'LayoutContainer',
-  components: {PresentationCard, SideMenu},
+  components: {PresentationCard},
   data() {
     return {
       currentViewId: "home",

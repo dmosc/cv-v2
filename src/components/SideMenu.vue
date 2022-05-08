@@ -1,5 +1,5 @@
 <template>
-  <ul class="list-group list-group-flush border-bottom border-right">
+  <ul class="list-group list-group-flush">
     <router-link to="/" class="list-group-item list-group-item-link">
       dmosc
     </router-link>
