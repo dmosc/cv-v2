@@ -6,18 +6,23 @@
         alt="Profile picture"
     />
     <div class="card-body">
-      <h5 class="card-title">Oscar Moscosa</h5>
+      <h5 class="card-title">
+        <a href="https://github.com/dmosc" target="_blank" rel="noreferrer noopener">
+          Oscar Moscosa
+        </a>
+      </h5>
       <p class="card-text">
         Javascript engineer. Passionate about web3 and building
         solutions to secure the world with mathematics.
       </p>
     </div>
-    <SideMenu />
+    <SideMenu/>
   </div>
 </template>
 
 <script>
 import SideMenu from "@/components/SideMenu";
+
 export default {
   name: "PresentationCard",
   components: {SideMenu}
